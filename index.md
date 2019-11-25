@@ -1,11 +1,11 @@
-Tento material je urceny tak ludom ktory boli na debatnych a chcu si pripomenut co sme robili, ako aj tym
-ktori tam neboli a nechu byt do konca zivota mimo.
+Tento material je urceny tak ludom ktory boli na debatnych a chcu si pripomenut co sme robili
+, ako aj tym ktori tam neboli a nechu byt do konca zivota mimo.
 
 Na poslednych dvoch debatnych sme sa venovali tomu ako mozme argumenty formalne/strukturovane zapisat.
 
 ## Formalny argument
 
-Vseobecna forma, v ktorej mozno argument zapisat, a teda aj definicia toho co budeme pod formalnym argumentom mysliet je
+Vseobecna forma, v ktorej mozno argument zapisat, a teda aj definicia toho co budeme pod formalnym argumentom mysliet, je
 mnozina predpokladov a zaver.
 
 ```
@@ -33,7 +33,7 @@ Na argumente nas primarne zaujimaju dve veci
 - vyplyva zaver z predpokladov ? (*validita*, angl. *validity*)
 - su predpoklady pravdive ?
 
-Ak na obidve tieto otazky odpovieme ano, tak sme dokazali, ze zaver plati! (*platnost*, angl. *soundness*)
+Ak na obidve tieto otazky odpovieme ano, tak nazyvame argument platny! (angl. *sound*)
 
 O horeuvedenom argumente napriklad mozme povedat, ze je validny (Ak vsetko co pisu v novinach je pravda a pisu tam ze M.K. je mafian, tak potom nevyhnutne M.K. musi byt mafian), ale na to aby bol platny by sme museli ukazat za obidva predpoklady naozaj platia, co by
 v pripade `Vsetko co pisu v novinach je pravda`  bola zrejme velmi tazka uloha.
@@ -41,9 +41,11 @@ v pripade `Vsetko co pisu v novinach je pravda`  bola zrejme velmi tazka uloha.
 *Ked sa teda pozerame na silu argumentu je potrebne hodnotit dve veci.
 Na jednej strane treba zhodnotit, ako velmi je zrejme (intuitivne pravdive) ze zaver musi z predpokladom vyplyvat. Na strane druhej, ako zrejme je ze predpoklady su pravdive? Cim menej zrejme / viac kontroverzne to je
 tim viac casu zrejme bude potrebneho na to si to v debate obhajit.
-Argument chceme postavit tak, aby bola jeho validita vcelku ocividna. Viac sa budeme v debate pravdepodobne venovat dokazaniu pravdivosti predpokladov. To spravime tak, ze poskytneme dalsi argument, ktory ma za ciel dany kontroverzny predpoklad dokazat. Teda tento predpoklad bude zaverom v novom argumente.
+Argument chceme postavit tak, aby bola jeho validita vcelku ocividna. Viac sa budeme v debate pravdepodobne venovat dokazaniu pravdivosti predpokladov. To mozme spravit napriklad tak,
+ze poskytneme dalsi argument,
+ktory ma za ciel dany kontroverzny predpoklad dokazat .
+Teda tento predpoklad bude zaverom v novom argumente.
 Mozme si to predstavit naprilad takto*
-
 ```
 argument 1: 
   - kontroverzny predpoklad
@@ -59,7 +61,7 @@ argument 2:
   kontroverzny predpoklad
 ```
 
-*ale vizualne viacvravne by bolo tieto argumetny nadpojit*
+*alebo vizualne viacvravne: *
 
 ```
 teza ktoru chceme dokazat <--+-- kontroverzny predpoklad <--+-- novy predpoklad 1
@@ -72,7 +74,7 @@ teza ktoru chceme dokazat <--+-- kontroverzny predpoklad <--+-- novy predpoklad 
 
 ### Ako obhajit Tezu?
 
-Tak teraz vieme, co myslime pojmom formalny argument (predpoklady a zaver) ako co znamena jeho validita a platnost.
+Tak teraz vieme, co myslime pojmom formalny argument (predpoklady a zaver) a co znamena jeho validita a platnost.
 Ako ale pouzit formalny argument na obhajenie nejakej tezy?
 
 #### Dokazat tezu
@@ -197,8 +199,8 @@ ze vety ktore pouzivame ako predpoklady (ci zaver) sa casto strukturalne podobaj
 
 - *ak (... alebo ...) tak ...*
 
-*Prave podrobnejsi pohlad na struktury viet a nasledna formalizacia ich zapisovania name moze odhalit zakonitosti validity.
-Zatial sme vsak formalizovali iba podobu arguemntu ako celku a ako premisy a zaver sme pouzivali hocijake very z prirodzeneho jazyka.
+*Prave podrobnejsi pohlad na struktury viet a nasledna formalizacia ich zapisovania nam moze odhalit zakonitosti validity.
+Zatial sme vsak formalizovali iba podobu arguemntu ako celku a ako premisy a zaver sme pouzivali hocijake vety z prirodzeneho jazyka.
 Takze vysvetelnie tychto zakonitosti mozme presetrit niekedy nabuduce, ak vas to bude zaujimat. Ich pochopoenie znacne zjednodusi
 a zautomatizuje tvorenie argumentov, ale urcite si to vuzaduje aspon par hodin zamyslenia sa a osvojenia si.*
 
